@@ -12,14 +12,14 @@ const Login = () => {
                     <span>Don't have an account?</span>
                     <button>Register</button>
                 </div>
-            </div>
-            <div className="right">
-                <h1>Login</h1>
-                <form>
-                    <input type="text" placeholder="Username" />
-                    <input type="password" placeholder="Password" />
-                    <button>Login</button>
-                </form>
+                <div className="right">
+                    <h1>Login</h1>
+                    <form>
+                        <input type="text" placeholder="Username" />
+                        <input type="password" placeholder="Password" />
+                        <button>Login</button>
+                    </form>
+                </div>
             </div>
         </div>
     )
