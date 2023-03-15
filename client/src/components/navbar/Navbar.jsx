@@ -29,6 +29,7 @@ const Navbar = () => {
         <EmailRoundedIcon/>
         <NotificationsOutlinedIcon/>
         <div className="user">
+          <img src="https://pbs.twimg.com/profile_images/1477448505841143814/YYEyBAHn_400x400.jpg" alt="" />
           <span>Joey Geofrey</span>
         </div>
       </div>
