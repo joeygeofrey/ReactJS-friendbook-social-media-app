@@ -1,4 +1,4 @@
-import "./leftBar.scss";
+import "./leftbar.scss";
 import Friends from "../../assets/1.png";
 import Groups from "../../assets/2.png";
 import Market from "../../assets/3.png";
@@ -12,23 +12,16 @@ import Messages from "../../assets/10.png";
 import Tutorials from "../../assets/11.png";
 import Courses from "../../assets/12.png";
 import Fund from "../../assets/13.png";
-import { AuthContext } from "../../context/authContext";
-import { useContext } from "react";
 
 const LeftBar = () => {
 
-  const { currentUser } = useContext(AuthContext);
-
   return (
-    <div className="leftBar">
+    <div className="leftbar">
       <div className="container">
         <div className="menu">
           <div className="user">
-            <img
-              src={currentUser.profilePic}
-              alt=""
-            />
-            <span>{currentUser.name}</span>
+            <img src="https://pbs.twimg.com/profile_images/1477448505841143814/YYEyBAHn_400x400.jpg" alt="" />
+            <span>Joey Geofrey</span>
           </div>
           <div className="item">
             <img src={Friends} alt="" />
@@ -40,7 +33,7 @@ const LeftBar = () => {
           </div>
           <div className="item">
             <img src={Market} alt="" />
-            <span>Marketplace</span>
+            <span>Market</span>
           </div>
           <div className="item">
             <img src={Watch} alt="" />
@@ -50,10 +43,10 @@ const LeftBar = () => {
             <img src={Memories} alt="" />
             <span>Memories</span>
           </div>
-        </div>
-        <hr />
-        <div className="menu">
-          <span>Your shortcuts</span>
+          <hr/>
+          <div className="menu">
+            <span>Your shortcuts</span>
+          </div>
           <div className="item">
             <img src={Events} alt="" />
             <span>Events</span>
@@ -74,13 +67,9 @@ const LeftBar = () => {
             <img src={Messages} alt="" />
             <span>Messages</span>
           </div>
-        </div>
-        <hr />
-        <div className="menu">
-          <span>Others</span>
-          <div className="item">
-            <img src={Fund} alt="" />
-            <span>Fundraiser</span>
+          <hr/>
+          <div className="menu">
+            <span>Others</span>
           </div>
           <div className="item">
             <img src={Tutorials} alt="" />
@@ -88,7 +77,11 @@ const LeftBar = () => {
           </div>
           <div className="item">
             <img src={Courses} alt="" />
-            <span>Courses</span>
+            <span>Friends</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Fund</span>
           </div>
         </div>
       </div>
