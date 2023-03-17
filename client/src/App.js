@@ -17,13 +17,16 @@ function App() {
 
   const currentUser = true;
 
-  const Layout = () => {    
+  const Layout = () => {
+    
     return (
       <div>
         <Navbar />
         <div style={{display: "flex" }}>
           <Leftbar />
+          <div style={{flex:10}}>
           <Outlet />
+          </div>
           <Rightbar />
         </div>
       </div>
