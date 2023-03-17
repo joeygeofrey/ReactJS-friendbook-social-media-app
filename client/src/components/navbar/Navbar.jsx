@@ -21,7 +21,7 @@ const Navbar = () => {
         <WidgetsOutlinedIcon/>
         <div className="search">
           <SearchOutlinedIcon/>
-          <input type="text" placeholder="search"/>        
+          <input type="text" placeholder="Search"/>        
         </div>
       </div>
       <div className="right">
