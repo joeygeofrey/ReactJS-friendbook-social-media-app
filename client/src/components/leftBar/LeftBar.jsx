@@ -19,28 +19,24 @@ const LeftBar = () => {
     <div className="leftbar">
       <div className="container">
         <div className="menu">
-          <div className="user">
-            <img src="https://pbs.twimg.com/profile_images/1477448505841143814/YYEyBAHn_400x400.jpg" alt="" />
-            <span>Joey Geofrey</span>
-          </div>
           <div className="item">
-            <img src={Friends} alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4233/4233978.png" alt="" />
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src={Groups} alt="" />
-            <span>Groups</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/4232/4232807.png" alt="" />
+            <span>Messages</span>
           </div>
           <div className="item">
-            <img src={Market} alt="" />
-            <span>Market</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/4233/4233892.png" alt="" />
+            <span>Circles</span>
           </div>
           <div className="item">
-            <img src={Watch} alt="" />
-            <span>Watch</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/3592/3592265.png" alt="" />
+            <span>Events</span>
           </div>
           <div className="item">
-            <img src={Memories} alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4322/4322936.png" alt="" />
             <span>Memories</span>
           </div>
           <hr/>
@@ -48,28 +44,28 @@ const LeftBar = () => {
             <span>Your shortcuts</span>
           </div>
           <div className="item">
-            <img src={Events} alt="" />
-            <span>Events</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/4240/4240459.png" alt="" />
+            <span>Calendar</span>
           </div>
           <div className="item">
-            <img src={Gaming} alt="" />
-            <span>Gaming</span>
+            <img src="https://cdn-icons-png.flaticon.com/512/4449/4449529.png" alt="" />
+            <span>Bookmarks</span>
           </div>
           <div className="item">
-            <img src={Gallery} alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/4322/4322593.png" alt="" />
+            <span>Journal</span>
+          </div>
+          <div className="item">
+            <img src="https://cdn-icons-png.flaticon.com/512/4475/4475693.png" alt="" />
             <span>Gallery</span>
-          </div>
-          <div className="item">
-            <img src={Videos} alt="" />
-            <span>Videos</span>
-          </div>
-          <div className="item">
-            <img src={Messages} alt="" />
-            <span>Messages</span>
           </div>
           <hr/>
           <div className="menu">
             <span>Others</span>
+          </div>
+          <div className="item">
+            <img src="https://cdn-icons-png.flaticon.com/512/3592/3592017.png" alt="" />
+            <span>Marketplace</span>
           </div>
           <div className="item">
             <img src={Tutorials} alt="" />
