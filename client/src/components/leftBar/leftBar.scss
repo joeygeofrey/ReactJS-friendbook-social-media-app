@@ -1,9 +1,9 @@
 .leftbar {
   flex: 2;
-  background-color: rgb(231, 239, 246);
+  background-color: #f0f0f0;
   position: sticky;
-  top: 70px;
-  height: calc(100vh - 70px);
+  top: 80px;
+  height: calc(100vh - 80px);
   overflow: scroll;
 
   &::-webkit-scrollbar {
@@ -14,10 +14,10 @@
     padding: 20px;
 
 hr {
-  margin: 20px 0px;
+  margin: 10px 0px;
   border: none;
-  height: 0.5px;
-  background-color: lightgrey;
+  height: 2px;
+  background-color: #1a1a1a13;
 
 }
 
@@ -30,41 +30,23 @@ hr {
         font-size: 12px;
       }
 
-      .user {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        background-color: rgba(240, 248, 255, 0.494);
-        padding: 10px;
-        border-style: solid;
-        border-color: rgb(217, 240, 240);
-        border-radius: 15px;
-
-        img {
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          object-fit: cover;
-        }
-
-        span {
-          font-size: 14px;
-        }
-      }
-
       .item {
         display: flex;
         align-items: center;
         gap: 10px;
         padding: 5px;
+        transition: 0.4s all ease-out;
 
         img {
           width: 30px;
           height: 30px;
+          pointer-events: none;
+          user-select: none;
         }
 
         span {
           font-size: 14px;
+          color: #1A1A1A;
         }
       }
 
@@ -72,11 +54,13 @@ hr {
         transform: translateY(-5px);
         box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
-        background-color: #fbeceb;
+        background-color: #e7e7e7;
         cursor: pointer;
+        transition: 0.4s all ease-in;
 
         span {
           font-weight: 600;
+          color: #1A1A1A;
         }
       }
     }
