@@ -1,7 +1,6 @@
 import "./navbar.scss";
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
-import WidgetsOutlinedIcon from '@mui/icons-material/WidgetsOutlined';
+import MoreVertOutlinedIcon from '@mui/icons-material/MoreVertOutlined';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
@@ -16,21 +15,18 @@ const Navbar = () => {
         <Link to="/" style={({textDecoration: "none"})} >
           <span>friendbook</span>
         </Link>
-        <HomeRoundedIcon/>
-        <DarkModeOutlinedIcon/>
-        <WidgetsOutlinedIcon/>
         <div className="search">
-          <SearchOutlinedIcon/>
+          <SearchOutlinedIcon style={{ fill: '#E85A4F' }}/>
           <input type="text" placeholder="Search"/>        
         </div>
       </div>
       <div className="right">
-        <PersonOutlinedIcon/>
-        <EmailRoundedIcon/>
-        <NotificationsOutlinedIcon/>
+        <EmailRoundedIcon style={{ fill: '#1A1A1A' }}/>
+        <NotificationsOutlinedIcon style={{ fill: '#1A1A1A' }}/>
         <div className="user">
           <img src="https://pbs.twimg.com/profile_images/1477448505841143814/YYEyBAHn_400x400.jpg" alt="" />
           <span>Joey Geofrey</span>
+          <MoreVertOutlinedIcon style={{ fill: '#E85A4F', cursor: 'pointer' }}/>
         </div>
       </div>
     </div>
