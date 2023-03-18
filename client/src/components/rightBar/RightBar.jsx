@@ -19,7 +19,7 @@ const RightBar = () => {
           <div className="user">
             <div className="userInfo">
               <img src="" alt="" />
-              <span>Jane Doey</span>
+              <span>Jane Doe</span>
             </div>
             <div className="buttons">
               <button>follow</button>
