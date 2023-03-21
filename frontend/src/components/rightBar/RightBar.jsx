@@ -9,7 +9,7 @@ const RightBar = () => {
           <span>Suggestions For You</span>
           <div className="user">
             <div className="userInfo">
-              <img src="https://images.pexels.com/photos/5119214/pexels-photo-5119214.jpeg" alt="" />
+              <img src="https://images.pexels.com/photos/15405996/pexels-photo-15405996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
               <span>Isabella Sanchez</span>
             </div>
             <div className="buttons">
@@ -70,13 +70,13 @@ const RightBar = () => {
           <div className="user">
             <div className="userInfo">
               <img
-                src="https://images.pexels.com/photos/11565299/pexels-photo-11565299.jpeg"
+                src="https://images.pexels.com/photos/4439608/pexels-photo-4439608.jpeg"
                 alt=""
               />
             </div>
             <div className="text"> 
               <p>
-              <span>Jane Doe</span> changed their cover picture into something faaaaaaaaaaaar more ravishing
+              <span>Jia Liu</span> Posted a new community event in your area
               </p>
             </div>
           </div>
@@ -89,20 +89,20 @@ const RightBar = () => {
             </div>
             <div className="text"> 
               <p>
-              <span>Roshni Menon</span> Invites you to their new event
+              <span>Roshni Menon</span> Invites you to their event
               </p>
             </div>
           </div>
           <div className="user">
             <div className="userInfo">
               <img
-                src="https://images.pexels.com/photos/11565299/pexels-photo-11565299.jpeg"
+                src="https://images.pexels.com/photos/15911516/pexels-photo-15911516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
               />
             </div>
             <div className="text"> 
               <p>
-              <span>Jane Doe</span> changed their cover picture into something faaaaaaaaaaaar more ravishing
+              <span>Sadio Ndiaye</span> Commented on your marketplace listing
               </p>
             </div>
           </div>
