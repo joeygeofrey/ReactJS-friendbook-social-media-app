@@ -126,14 +126,18 @@
         .text {
           p {
             font-size: smaller;
-            padding: 0px 15px 0px 10px;
+            padding: 0px 0px 0px 15px;
+            display: flex;
+            flex-direction:column;
+            position: absolute;
+            margin-left: -295px;
           }
   
           span {
             font-weight: 500;
             color: #E85A4F;
             font-size: small;
-            padding-right: 185px;
+
           }
         }
       }
