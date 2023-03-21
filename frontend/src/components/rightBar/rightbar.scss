@@ -1,9 +1,9 @@
 .rightbar {
-  flex:3.54;
+  flex: 4;
   background-color: #f0f0f0;
   position: sticky;
-  top: 60px;
-  height: calc(100vh - 60px);
+  top: 80px;
+  height: calc(100vh - 80px);
   overflow: scroll;
 
   &::-webkit-scrollbar {
@@ -13,59 +13,127 @@
   .container {
     padding: 20px;
 
-    .item {
+    .suggestions {
       -webkit-box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
       -moz-box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
       box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
       padding: 30px;
+      margin-bottom: 30px;
       border-radius: 25px;
       
       span {
-        color: gray;
-        padding: 18px;
+        color: #1A1A1A;
+        font-size: medium;
+        font-weight: 500;
       }
 
       .user {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        margin: 25px 5px 15px 10px;
         
         .userInfo {
           display: flex;
+          align-items: center;
           gap: 10px;
+          position: relative;
         }
 
         img {
-          width: 40px;
-          height: 40px;
+          width: 50px;
+          height: 50px;
           border-radius: 50%;
           object-fit: cover;
-          padding: 10px;
         }
         
+        p {
+          font-size: smaller;
+        }
+
         span {
-          color: black;
+          font-weight: 500;
+          color: #E85A4F;
+          font-size: small;
         }
 
         .buttons {
           display: flex;
           align-items: center;
           gap: 10px;
-          padding-right: 20px;
+          padding-right: 90px;
 
           button {
             border: none;
             padding: 6px;
             color: white;
+            background-color: #fb5b1c;
             cursor: pointer;
             border-radius: 5px;
-
-            &:first-child {
-              background-color: #687864;
+            transition: 0.2s all ease-out;
             }
 
-            &:last-child {
-              background-color: #fb5b1c;
-            }
+          button:hover {
+            border: none;
+            padding: 6px;
+            color: #fb5b1c;
+            font-weight: 600;
+            background-color: rgb(236, 236, 236);
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.25);
+            transition: 0.2s all ease-in;
+          
+          }
+        }
+      }
+    }
+
+    .activities {
+      -webkit-box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
+      -moz-box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
+      box-shadow: 2px 1px 41px -14px rgba(0,0,0,0.75);
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 25px;
+
+      span {
+        color: #1A1A1A;
+        font-size: medium;
+        font-weight: 500;
+      }
+
+      .user {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin: 25px 15px 15px 10px;
+        
+        .userInfo {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          position: relative;
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        
+        .text {
+          p {
+            font-size: smaller;
+            padding: 0px 15px 0px 10px;
+          }
+  
+          span {
+            font-weight: 500;
+            color: #E85A4F;
+            font-size: small;
+            padding-right: 185px;
           }
         }
       }
